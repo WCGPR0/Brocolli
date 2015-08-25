@@ -54,7 +54,7 @@ function init() {
 
   var loader = new THREE.JSONLoader(),
   callbackKey = function(geometry) {createScene(geometry,  0, 0, 0, 15, '/assets/img01.jpg');};
-  loader.load("temp.js", callbackKey);
+  loader.load("temp2.js", callbackKey);
 
   window.addEventListener('resize', onWindowResize, false);
 
@@ -95,3 +95,4 @@ function render() {
   webglRenderer.render(scene, camera);
 }
 
+;

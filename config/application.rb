@@ -37,7 +37,7 @@
          'static_pages.css',
          'cruiseh.ttf',
          'cruise.ttf',
-         'temp.js'.
+         'temp.js',
          'temp2.js'
         ]
       end

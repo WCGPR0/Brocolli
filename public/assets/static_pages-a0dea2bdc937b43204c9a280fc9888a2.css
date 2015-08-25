@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Cruiser';
+  src: url("/assets/cruise.ttf"); }
+@font-face {
+  font-family: 'Cruiser_Hollow';
+  src: url("/assets/cruiseh.ttf"); }
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: -webkit-radial-gradient(60% 40%, closest-corner, #3b5000, #3b5323);
+  background-color: #3B5323;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: georgia;
+  text-align: center;
+  min-height: 100%; }
+
+*, *:after, *:before {
+  transition: all 0.5s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition-property: animation;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-duration: 120ms; }
+
+.avaliable {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+  transition-duration: 0.5s;
+  border-bottom: 1px solid #5D55AC;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  color: #9B9BA3; }
+
+.avaliable:hover {
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  color: white; }
+
+.content {
+  width: 50%;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  /*it can be fixed too*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  align-self: center;
+  line-height: 200px;
+  /* the same as your div height */ }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0.5;
+  z-index: 2; }
+
+#countdown {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+  left: 50%;
+  margin-left: -37.5%; }
+
+html, body {
+  height: 100vh;
+  height: 100%;
+  width: 100vh;
+  width: 100%;
+  cursor: -webkit-grab;
+  cursor: -moz-grab; }
+
+h1 {
+  font-family: Cruiser;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-size: 6rem; }
+
+h2 {
+  font-family: Cruiser_Hollow;
+  font-weight: 100;
+  font-size: 40px;
+  font-size: 4rem;
+  margin-bottom: 0; }
+
+/*#animation{
+   height: 100vh;
+   height: 100%;
+   width: 100vh;
+   width: 100%;
+   opacity: 0.5;
+   background-color:black;
+   clear:both;
+   position: relative;
+}*/
+#animation {
+  height: 100vh;
+  height: 100%;
+  width: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: -1; }
