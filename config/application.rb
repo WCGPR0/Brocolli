@@ -32,7 +32,8 @@
         config.assets.precompile += [
          'three.min.js',
          'script.js',
-         'countdown.js',
+         'script_.js',
+         'countdown.min.js',
          'static_pages.css',
          'cruiseh.ttf',
          'cruise.ttf'
