@@ -33,7 +33,9 @@
          'three.min.js',
          'script.js',
          'countdown.js',
-         'static_pages.css'
+         'static_pages.css',
+         'cruiseh.ttf',
+         'cruise.ttf'
         ]
       end
     end
