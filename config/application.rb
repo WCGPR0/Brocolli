@@ -34,11 +34,9 @@
          'script.js',
          'script_.js',
          'countdown.min.js',
-         'static_pages.css',
          'cruiseh.ttf',
          'cruise.ttf',
-         'temp.js',
-         'temp2.js'
+         'static_pages.css',
         ]
       end
     end
