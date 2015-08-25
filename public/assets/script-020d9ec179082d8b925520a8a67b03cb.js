@@ -53,7 +53,7 @@ function init() {
   container.appendChild(webglRenderer.domElement);
 
   var loader = new THREE.JSONLoader(),
-  callbackKey = function(geometry) {createScene(geometry,  0, 0, 0, 15, 'img01-831a6f4cb378adcc23839e6a79b032cc.jpg');};
+  callbackKey = function(geometry) {createScene(geometry,  0, 0, 0, 15, '/assets/img01-831a6f4cb378adcc23839e6a79b032cc.jpg');};
   loader.load("temp.js", callbackKey);
 
   window.addEventListener('resize', onWindowResize, false);
