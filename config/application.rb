@@ -26,6 +26,14 @@
         # I18n.enforce_available_locales = true
         I18n.enforce_available_locales = true
 
-        config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+        config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif) 
+       
+        # Production HEROKU
+        config.assets.precompile += [
+         'three.min.js',
+         'script.js',
+         'countdown.js',
+         'static_pages.css'
+        ]
       end
     end
