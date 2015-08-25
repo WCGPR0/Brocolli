@@ -36,7 +36,9 @@
          'countdown.min.js',
          'static_pages.css',
          'cruiseh.ttf',
-         'cruise.ttf'
+         'cruise.ttf',
+         'temp.js'.
+         'temp2.js'
         ]
       end
     end
