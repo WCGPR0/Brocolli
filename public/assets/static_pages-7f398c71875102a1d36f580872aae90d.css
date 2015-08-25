@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Cruiser';
-  src: url("/assets/cruise.ttf"); }
+  src: url("cruise-152dfba69bd06204d9730ad0d6af8ad0.ttf"); }
 @font-face {
   font-family: 'Cruiser_Hollow';
-  src: url("/assets/cruiseh.ttf"); }
+  src: url("cruiseh-2f09b1c87f6b1753af1aff33978b039d.ttf"); }
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
