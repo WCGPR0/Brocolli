@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brocolli</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/three.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="content">
+    <h1 class="avaliable">
+      Brocolli
+    </h2>
+  </div>
+  <h2>
+  <div id="countdown">
+      Time left!
+  </div>
+  </h2>
+</div>
+<div id="animation">
+</div>
+
+
+<script src="js/countdown.min.js"> </script>
+<script>
+var timerId = countdown( new Date(2016, 3, 20), function(ts) {
+    document.getElementById('countdown').innerHTML = ts.toHTML("strong"); }, countdown.SECONDS);
+  countdown.setLabels(null,null,',');
+  window.clearInterval;
+</script>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
